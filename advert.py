@@ -77,7 +77,7 @@ if __name__ == "__main__":
     # Пример с отрицательной ценой
     lesson_negative_price_str = """{
         "title": "python",
-        "price": 1,
+        "price": -1,
         "location": {
             "address": "город Москва, Лесная, 7",
             "metro_stations": ["Белорусская"]
@@ -156,3 +156,5 @@ if __name__ == "__main__":
         'lesson4_ad.location.Country.City: ',
         lesson4_ad.location.Country.City
     )  # Проверка более глубокой иерархии
+
+    lesson3_ad = Advert(lesson3)
